@@ -1,0 +1,23 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aungkaungkhant-nssh/Admin-Dashboard-MMSIT-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aungkaungkhant-nssh/Admin-Dashboard-MMSIT-/issues"
+  },
+  "homepage": "https://github.com/aungkaungkhant-nssh/Admin-Dashboard-MMSIT-#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
