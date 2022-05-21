@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="main container-fluid">
+    <div class="row">
+        <!-- start sidebar -->
+        <div class="col-12 col-lg-2 col-xl-2 sidebar vh-100 sidebar-menu">
+            <div class="d-flex justify-content-between align-items-center py-2 mt-3">
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="bg-primary rounded p-2 d-flex align-items-center justify-content-center mr-3">
+                        <i class="feather-shopping-bag text-white h4"></i>
+                    </span>
+                    <span class="font-weight-bolder text-primary h4 mb-0">My Shop</span>
+                </div>
+                <button class="text-dark hide-sidebar-btn btn btn-light d-block d-lg-none">
+                    <i class="feather-x" style="font-size: 2rem;"></i>
+                </button>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li class="menu-item">
+                        <a href="/" class="menu-item-link active">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Dashboard
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-title">
+                        <span>Manage Item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_add.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Add Item
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_list.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-list text-dark"></i>
+                                Item Lists
+                               
+                            </span>
+                            <span class="badge badge-pill bagde-white shadow ">15</span>
+                        </a>
+                       
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-title">
+                        <span>Manage Item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_add.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Add Item
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_list.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-list text-dark"></i>
+                                Item Lists
+                               
+                            </span>
+                            <span class="badge badge-pill bagde-white shadow ">15</span>
+                        </a>
+                       
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-title">
+                        <span>Manage Item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_add.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Add Item
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_list.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-list text-dark"></i>
+                                Item Lists
+                               
+                            </span>
+                            <span class="badge badge-pill bagde-white shadow ">15</span>
+                        </a>
+                       
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-title">
+                        <span>Manage Item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_add.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Add Item
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_list.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-list text-dark"></i>
+                                Item Lists
+                               
+                            </span>
+                            <span class="badge badge-pill bagde-white shadow ">15</span>
+                        </a>
+                       
+                    </li>
+                </ul>
+                <ul>
+                    <li class="menu-title">
+                        <span>Manage Item</span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_add.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-plus-circle"></i>
+                                Add Item
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="item_list.html" class="menu-item-link">
+                            <span>
+                                <i class="feather-list text-dark"></i>
+                                Item Lists
+                               
+                            </span>
+                            <span class="badge badge-pill bagde-white shadow ">15</span>
+                        </a>
+                       
+                    </li>
+                </ul> 
+            </div>
+        </div>
+        <!-- end sidebar -->
+        <div class="col-12 col-lg-10 col-xl-10 content vh-100">
+            <div class="row header mb-4">
+                <div class="col-12 ">
+                    <div class="p-2 bg-primary d-flex justify-content-between align-items-center">
+                        <button class="text-light show-sidebar-btn btn btn-primary d-block d-lg-none">
+                            <i class="feather-menu" style="font-size: 2rem;"></i>
+                        </button>
+                        <form action="" method="post" class="d-none d-md-block">
+                            <div class="form-inline">
+                                <input type="text" class="form-control mr-2">
+                                <button class="btn btn-light">
+                                    <i class="feather-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             <img src="./img/user/avatar1.jpg" alt="AKK" class="user_image">  Aung Kaung Khant
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start content area -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mb-4 status-card ">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-3 mr-1">
+                                    <i class="feather-shopping-bag  text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="col-8">
+                                    <p class="mb-1 font-weight-bolder h6">Total Order</p>
+                                    <p class="mb-0 font-black-50">
+                                        <span class="counter-up">123</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mb-4 status-card ">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-3 mr-1">
+                                    <i class="feather-users  text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="col-8">
+                                    <p class="mb-1 font-weight-bolder h6">Total Users</p>
+                                    <p class="mb-0 font-black-50">
+                                        <span class="counter-up">1000</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mb-4 status-card" onclick="location.replace('http://127.0.0.1:5500/item_list.html')">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-3 mr-1">
+                                    <i class="feather-package  text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="col-8">
+                                    <p class="mb-1 font-weight-bolder h6">Total Items</p>
+                                    <p class="mb-0 font-black-50">
+                                        <span class="counter-up">1000</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card mb-4 status-card ">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-3 mr-1">
+                                    <i class="feather-map-pin  text-primary" style="font-size: 2.5rem;"></i>
+                                </div>
+                                <div class="col-8">
+                                    <p class="mb-1 font-weight-bolder h6">Location</p>
+                                    <p class="mb-0 font-black-50">
+                                        <span class="counter-up">14</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-12 col-xl-7 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4>Order & Viewer</h4>
+                                <div>
+                                    <img src="./img/user/avatar1.jpg" class="ov-img rounded-circle" alt="">
+                                    <img src="./img/user/avatar2.jpg" class="ov-img rounded-circle" alt="">
+                                    <img src="./img/user/avatar3.jpg" class="ov-img rounded-circle" alt="">
+                                    <img src="./img/user/avatar4.jpg" class="ov-img rounded-circle" alt="">
+                                </div>
+                            </div>
+                            <canvas id="ov"  height="150"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-5 mb-4">
+                    <div class="card item-carousel-card">
+                        <div class="card-body item-carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators" style="bottom:-30px">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-secondary"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1">
+                                                <p class="mb-0 font-weight-bolder text-black-50">500 MMK</p>
+                                                <h4 class="mb-3">Coffee Cup</h4>
+                                                <div class="progress mb-4">
+                                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>  
+                                            <img src="https://raw.githubusercontent.com/heinhtetzan/swd7/master/8_admin_dashobard/project/img/item/item1.png" alt="" class="item-card-img">
+                                        </div>   
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1">
+                                                <p class="mb-0 font-weight-bolder text-black-50">1500 MMK</p>
+                                                <h4 class="mb-3">Stick</h4>
+                                                <div class="progress mb-4">
+                                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>  
+                                            <img src="https://raw.githubusercontent.com/heinhtetzan/swd7/master/8_admin_dashobard/project/img/item/item2.png" alt="" class="item-card-img">
+                                        </div>   
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1">
+                                                <p class="mb-0 font-weight-bolder text-black-50">500 MMK</p>
+                                                <h4 class="mb-3">Book</h4>
+                                                <div class="progress mb-4">
+                                                    <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>  
+                                            <img src="https://raw.githubusercontent.com/heinhtetzan/swd7/master/8_admin_dashobard/project/img/item/item3.png" alt="" class="item-card-img">
+                                        </div>   
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="item-card">
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <div class="flex-grow-1">
+                                                <p class="mb-0 font-weight-bolder text-black-50">500 MMK</p>
+                                                <h4 class="mb-3">Card</h4>
+                                                <div class="progress mb-4">
+                                                    <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>  
+                                            <img src="https://raw.githubusercontent.com/heinhtetzan/swd7/master/8_admin_dashobard/project/img/item/item4.png" alt="" class="item-card-img">
+                                        </div>   
+                                    </div>
+                                  </div>
+                                </div>
+                               
+                              </div>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-xl-5 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4>Order & Places</h4>
+                                <div>
+                                    <i class="feather-pie-chart"></i>
+                                </div>
+                            </div>
+                            <canvas id="pv"  height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-7 mb-4">
+                    <div class="card overflow-hidden">
+                        <div class="d-flex justify-content-between align-items-center p-2">
+                            <h4>Subscriber List</h4>
+                            <div>
+                                <i class="feather-more-vertical"></i>
+                            </div>
+                        </div>
+                        <table class="table table-hover sub-list">
+                            <thead>
+                                <th>Name</th>
+                                <th>Company</th>
+                                <th>Start Date</th>
+                                <th>Status</th>
+                                <th>Amount</th>
+                                <th>Action</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Mg Mg</td>
+                                    <td>Yoma Bank</td>
+                                    <td>Jan 3 2022</td>
+                                    <td><span class="badge badge-success">open</span></td>
+                                    <td>$100.00</td>
+                                    <td>
+                                        <a href=""><i class="feather-trash text-danger"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Kyaw Kyaw</td>
+                                    <td>KBZ Bank</td>
+                                    <td>FEB 4 2022</td>
+                                    <td><span class="badge badge-danger">close</span></td>
+                                    <td>$30.00</td>
+                                    <td>
+                                        <a href=""><i class="feather-trash text-danger"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hla Hla</td>
+                                    <td>AGD Band</td>
+                                    <td>March 5 2022</td>
+                                    <td><span class="badge badge-success">open</span></td>
+                                    <td>$20.00</td>
+                                    <td>
+                                        <a href=""><i class="feather-trash text-danger"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tun Tun</td>
+                                    <td>CB Bank</td>
+                                    <td>Jan 3 2022</td>
+                                    <td><span class="badge badge-success">open</span></td>
+                                    <td>$100.00</td>
+                                    <td>
+                                        <a href=""><i class="feather-trash text-danger"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Kyaw Kyaw</td>
+                                    <td>UABB Bank</td>
+                                    <td>Jan 3 2022</td>
+                                    <td><span class="badge badge-danger">close</span></td>
+                                    <td>$400.00</td>
+                                    <td>
+                                        <a href=""><i class="feather-trash text-danger"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- end content area -->
+        </div>
+    </div>
+   
+</section>
+<script src="vendor/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/counter_up/counter_up.js"></script>
+<script src="./vendor/way_point/jquery.waypoints.js"></script>
+<script src="./vendor/chart_js/chart.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
